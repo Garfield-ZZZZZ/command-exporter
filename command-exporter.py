@@ -1,7 +1,3 @@
-# the script starts a HTTP server on 8080, and wait for requests
-# on start up, it reads the config.json file for all <name, command> pairs
-# when a request comes, it executes each command, and return a line with the format of script_result{name=xxx, result=xxx}
-
 import json
 import os
 import subprocess
